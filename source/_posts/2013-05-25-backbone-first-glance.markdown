@@ -9,6 +9,7 @@ categories: [Javascript, Backbone, Review]
 昨夜开始实现[利用github api 把文章评论丢到Issue里面]({% post_url 2013-05-22-hello %})，选型时选择了Backbone作为基础，对比以往研究过的其他各类框架，Backbone是崭新而让我震惊的
 
 先说结论：Backbone是_framework of MV\* frameworks_，是框架的框架；或者说，Backbone仅仅抽象了web app framework中多数都需要的功能组织成api接口，但并没有将自己限制在任何一种风格，而是要求开发者先以Backbone为基础自己定义出一种框架（完成MV\*中“\*”部分和V部分的定义），然后再实现自己的业务。
+<!--more-->
 
 ### 不是MVC, MVP, MVVM
 
